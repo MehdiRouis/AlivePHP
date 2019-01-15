@@ -22,6 +22,10 @@
 	public function getFullUrl() {
 	    $this->render('exemple/getFullUrl');
 	}
+
+	public function getValidatorInformations() {
+	    $this->render('exemple/getValidator');
+    }
 	
 	public function get404() {
 	    $this->render('exemple/404');

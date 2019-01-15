@@ -14,3 +14,4 @@
     $router->get('/documentation/exemples/redirections', 'Index#getRedirection', 'getRedirection');
     $router->get('/documentation/exemples/getrouteurl', 'Index#getFullUrl', 'getFullUrl');
     $router->get('/documentation/exemples/notFound', 'Index#get404', '404');
+    $router->get('/documentation/exemples/validator', 'Index#getValidatorInformations', 'getValidator');

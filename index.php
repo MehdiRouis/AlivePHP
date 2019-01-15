@@ -11,7 +11,7 @@
     /* |Definitions| */
     setlocale(LC_TIME, 'fr_FR.utf8'); // Heure traduite en français
     define('PROJECT_ROOT', $_SERVER['DOCUMENT_ROOT']); // Dossier local du VHOST
-    define('PROJECT_SOURCE', '/BasePHP'); // Dossier dans lequel le projet est ( à partir du PROJECT_ROOT )
+    define('PROJECT_SOURCE', '/AliveFrmwrkPHP'); // Dossier dans lequel le projet est ( à partir du PROJECT_ROOT )
     define('PROJECT_LIBS', PROJECT_ROOT . PROJECT_SOURCE); // Dossier local + Dossier contenant le projet
     define('PROJECT_LINK', 'http://localdev' . PROJECT_SOURCE); // Lien externe du projet + Dossier contenant le projet
     /* [Appel des classes] */
