@@ -43,7 +43,7 @@
 	}
 
 	/**
-	 * Ajouter un paramètre de méthode GET ( ?id=3 par exemple )
+	 * Ajouter un paramètre de méthode GET ( ?id=3 par exemples )
 	 * @param string $param
 	 * @param string $regex
 	 * @return $this
@@ -72,7 +72,7 @@
 	}
 
 	/**
-	 * Vérification des paramètres de l'URL ( ?id=3 par exemple )
+	 * Vérification des paramètres de l'URL ( ?id=3 par exemples )
 	 * Si des paramètres existent, ils les retournent.
 	 * @param array $match
 	 * @return string

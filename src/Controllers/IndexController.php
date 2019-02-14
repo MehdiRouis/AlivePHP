@@ -1,39 +1,18 @@
 <?php
 
-    namespace Controllers;
+namespace Controllers;
 
-    /**
-     * @author esska
-     */
-    class IndexController extends Controller {
+/**
+ * @author esska
+ */
+class IndexController extends Controller {
 
-	public function getHomepage() {
-	    $this->render('index'); // /public/views/{index}.php
-	}
-
-	public function getId($string) {
-	    $this->render('exemple/getUrlParams', ['id' => $string]);
-	}
-	
-	public function getRedirection() {
-	    $this->render('exemple/getRedirection');
-	}
-	
-	public function getFullUrl() {
-	    $this->render('exemple/getFullUrl');
-	}
-
-	public function getValidatorInformations() {
-	    $this->render('exemple/getValidator');
+    public function getHomepage() {
+        $this->render('index'); // /public/views/{index}.php
     }
-	
-	public function get404() {
-	    $this->render('exemple/404');
-	}
-	
-	public function getNotFound() {
-	    echo 'Erreur, page introuvable.';
-	}
 
+    public function getFirstProject() {
+        $this->render('exemples/getstarted');
     }
-    
+
+}

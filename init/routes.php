@@ -10,8 +10,4 @@
     /* -[{GET}]- */
     $router->get('/404', 'Index#getNotFound', 'default');
     $router->get('/', 'Index#getHomepage', 'home');
-    $router->get('/documentation/exemples/geturlparam/:id', 'Index#getId', 'getId')->with('id', '[0-9]+');
-    $router->get('/documentation/exemples/redirections', 'Index#getRedirection', 'getRedirection');
-    $router->get('/documentation/exemples/getrouteurl', 'Index#getFullUrl', 'getFullUrl');
-    $router->get('/documentation/exemples/notFound', 'Index#get404', '404');
-    $router->get('/documentation/exemples/validator', 'Index#getValidatorInformations', 'getValidator');
+    $router->get('/getstarted', 'Index#getFirstProject', 'firstProject');
